@@ -1,0 +1,82 @@
+/*
+CSS File
+By Ulysse Valdenaire
+01/08/2021
+*/
+
+#container {
+  background: #eeeeee;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.big_image {
+  background: #ffffff;
+  margin: 20px;
+ padding-top:20px;
+ padding-bottom:20px;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+  width:100%;
+}
+
+.para {
+  text-align: center;
+}
+
+.time_line {
+  width: 400px;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.final {
+  background: black;
+  color: white;
+  width: 15%;
+  margin: auto;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media  screen and (min-width : 300px) {
+  
+  .time_line{
+    width:90%;
+  }
+
+  .final{
+    width:50%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width : 300px){
+  #container{
+    width:100%;
+  }
+  .time_line{
+    width:250px;
+  }
+}
